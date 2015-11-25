@@ -1,0 +1,23 @@
+li {
+    list-style-type: none;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold
+}
+
+.form {
+	display: inline-box;
+	text-align: center;
+}
+
+.list {
+	display: inline-box;
+	text-align: center;
+}
+
+.number {
+	display: inline-box;
+	text-align: center;
+}
