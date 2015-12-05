@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+	<title>Aircrafts Management</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="aircrafts.css">
+</head>
+
+<body>
+	<div class="addAircraft">
+		<h1>Add an aircraft</h1>
+		<input type="text" id="addInput"></input>
+		<button id="addButton">Add</button>
+	</div>
+	<div class="addService"></div>
+	<div class="reduceTime"></div>
+	<div class="browseAircrafts">
+		<h1>Browse aircrafts</h1>
+		<ul id="aircraftList"></ul>
+	</div>
+	<div class="aircraftRepairs">
+		<p><h1>Get aircrafts for repairs</h1></p>
+		<p><input type='range' min='0' max='500' id='repairRange'><span id='repairValue'>250</span></input></p>
+		<p><button id="aircraftRepairsButton">Get aircraft for repairs</button></p>
+		<p><ul id="aircraftRepairList"></ul></p>
+	</div>
+<script type="text/javascript" src="aircrafts.js"></script>
+</body>

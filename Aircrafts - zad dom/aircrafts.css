@@ -1,0 +1,53 @@
+div { display: block; width: 1332px; margin: 0px auto; text-align: center; }
+
+button {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -moz-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -ms-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -o-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: linear-gradient(to bottom, #ffffff, #c7c7c7);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  border: solid #adadad 2px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #d1d1d1;
+  background-image: -webkit-linear-gradient(top, #d1d1d1, #a8a8a8);
+  background-image: -moz-linear-gradient(top, #d1d1d1, #a8a8a8);
+  background-image: -ms-linear-gradient(top, #d1d1d1, #a8a8a8);
+  background-image: -o-linear-gradient(top, #d1d1d1, #a8a8a8);
+  background-image: linear-gradient(to bottom, #d1d1d1, #a8a8a8);
+  text-decoration: none;
+}
+
+input {
+	background: #ffffff;
+	border-radius: 15px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 15px;
+	border: solid #adadad 2px;
+	text-decoration: none;
+}
+
+.removeButton, .serviceButton, .reduceTimeButton {
+	text-align: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: Arial;
+	color: #n1n1n1;
+	text-decoration: none;
+	font-size: 25px;
+}
